@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (c) The Hut Group 2001-2018, All Rights Reserved. This source code is 
+	the property of The Hut Group, registered address: 5th Floor, Voyager House 
+	Chicago Avenue, Manchester Airport, Manchester, England, M90 3DQ -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HomeChromeWH">
+
+	<parameter name="browser" value="chrome" />
+	<!--   <parameter name="URL" value="https://chi.midphase.staging.chimera.uk2group.com/"/> -->
+	<parameter name="URL" value="https://chi.westhost.staging.chimera.uk2group.com/"/> 
+	<!--  <parameter name="URL" value="https://chi.uk2.staging.chimera.uk2group.com/" />  -->
+	<parameter name="lUsername" value="QAtestMykolaChiHome" />
+	<parameter name="lPassword" value="q1234567" />
+	<parameter name="eXistingDomain" value="qatest1403191007.company"/>
+	<parameter name="tPin" value="0515"></parameter>
+	<test name="HomeChromeWH">
+
+		<classes>
+			<class name="home1.HomeTest" />
+		</classes>
+	</test>
+
+</suite>
+<!-- -->
+
